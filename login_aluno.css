@@ -49,16 +49,25 @@
     border-radius: 6px;
   }
 
+
   .login-box h1 {
     color: #000b15;
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 20px;
-
   }
   
+  .login-box label {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .login-box input[type="text"],
+  .login-box input[type="password"] {
+    margin-bottom: 20px;
+}
   .login-box button {
-    background-color: #ffffff;
+    background-color: #fff;
     color: #000b15;
     border: none;
     padding: 12px 24px;
@@ -69,8 +78,11 @@
   }
   
   .login-box button:hover {
-    background-color: #65A2E9;
+    background-color: #4169C1;
     color: white;
   }
 
-  65A2E9
+  .left-side img {
+    width: 300px;
+    height: 275px;
+  }
